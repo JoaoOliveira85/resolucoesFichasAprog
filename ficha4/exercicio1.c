@@ -1,7 +1,9 @@
-/* 
+/*
 Ficha #4 - Exercicio #1
 
-a) Este programa tem como objetivo a leitura de três valores inteiros (horas, minutos e segundos) e a apresentação do resultado da soma desses valores em segundos. Para tal, o programa deve ler os valores e calcular a soma dos segundos, apresentando o resultado no ecrã.
+"a) Este programa tem como objetivo a leitura de três valores inteiros (horas, minutos e segundos) e a apresentação do
+ resultado da soma desses valores em segundos. Para tal, o programa deve ler os valores e calcular a soma dos segundos,
+ apresentando o resultado no ecrã."
 
 */
 
@@ -16,7 +18,9 @@ int conversao(int h, int m, int s)
 }
 
 /*
-b) Esta funcao recebe dois valores inteiros, um limite inferior e um limite superior, e solicita ao utilizador a introdução de um número inteiro entre esses limites sempre que o utilizador não o faça. A função deve devolver o número inteiro introduzido pelo utilizador.
+"b) Esta funcao recebe dois valores inteiros, um limite inferior e um limite superior, e solicita ao utilizador a
+ introdução de um número inteiro entre esses limites sempre que o utilizador não o faça. A função deve devolver o número
+ inteiro introduzido pelo utilizador."
 */
 
 int leitura (int limiteInferior, int limiteSuperior) {
