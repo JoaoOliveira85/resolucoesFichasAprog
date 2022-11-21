@@ -17,12 +17,14 @@ Por exemplo: 22 é o 3º número natural cuja soma dos algarismos é igual a 4.
 
 // a função somaDeDigitos recebe um número inteiro e devolve a soma dos seus algarismos.
 
-int somaDeDigitos(int numeroEscolhido) {
+int somaDeDigitos(int numeroEscolhido)
+{
     int soma = 0; // a variável soma é declarada e inicializada a 0.
 
     // o loop é executado enquanto o número escolhido for maior que 0. Em cada iteração o número escolhido é dividido
     // por 10 e o resto da divisão é adicionado à soma.
-    while (numeroEscolhido > 0) {
+    while (numeroEscolhido > 0)
+    {
         // a variável soma é incrementada com o resto da divisão do número escolhido por 10.
         soma += numeroEscolhido % 10;
         // o número escolhido é dividido por 10.
@@ -33,11 +35,12 @@ int somaDeDigitos(int numeroEscolhido) {
     return soma;
 }
 
-int main () {
+int main()
+{
 
     // as variáveis numeroDeIteracoes e numeroEscolhido são declaradas sem serem inicializadas uma vez que o seu valor
     // é atribuido no scanf.
-    int numeroDeIteracoes; 
+    int numeroDeIteracoes;
     int numeroEscolhido;
 
     // as variáveis combinacoesEncontradas e iteracao são declaradas e inicializadas a 0.
@@ -56,11 +59,13 @@ int main () {
     // loop while porque a execução do loop está dependente da realação do numero de iterações com o numero de
     // combinações encontradas e não com o numero da iteração.
 
-    do {
+    do
+    {
         int somaTemporaria = somaDeDigitos(iteracao); // a variável somaTemporaria é declarada e
         // inicializada com o valor da função somaDeDigitos com o numero da iteração atual como parâmetro.
 
-        if (somaTemporaria == numeroEscolhido) {
+        if (somaTemporaria == numeroEscolhido)
+        {
             // se a soma temporária for igual ao número escolhido, o número de combinações encontradas é incrementado
             // em 1 e o utilizador é informado do número da combnação e do valor cuja soma dos algoritmos corresponde ao
             // número escolhido pelo utilizador.
