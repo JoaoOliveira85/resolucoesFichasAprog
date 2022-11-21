@@ -13,6 +13,7 @@ int main( void )
     int anos, meses, dias, idade_dias; // Declarar as variaveis anos, meses, dias e idade_dias como inteiros. Não é 
     // necessário iniciar as variáveis uma vez que o seu valor vai ser obtido scanf e do resultado da operação
 
+    // Solicitar ao utilizador que introduza os valores da idade em anos, meses e dias
     printf("Digite a idade da pessoa em anos, meses e dias: ");
     scanf("%d %d %d", &anos, &meses, &dias);
 

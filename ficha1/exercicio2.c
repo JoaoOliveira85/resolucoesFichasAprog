@@ -19,6 +19,7 @@ int main( void )
     int x1, x2, x3, num; // Declarar as variaveis x1, x2, x3 e num como inteiros. Não é necessário iniciar as variáveis
     // uma vez que o seu valor vai ser obtido scanf e do resultado da operação
 
+    // Solicitar ao utilizador que introduza três valores inteiros
     printf("Digite três dígitos inteiros: ");
     scanf("%d %d %d", &x1, &x2, &x3);
 
