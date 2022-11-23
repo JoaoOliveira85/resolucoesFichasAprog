@@ -24,20 +24,19 @@ int main (void) {
     int numerosPares = 0; // é inicializada a 0 uma vez que o seu valor vai ser utilizado para iterar o vetor de números pares
     int numeroValido = 0; // é inicializada a 0 uma vez que o seu valor vai ser utilizado para validar o número introduzido pelo utilizador. Inicialmente vai ser 0 porque o número introduzido pelo utilizador ainda não foi validado
 
-    int vectorDeNumerosPares[numeroSelecionado]; // O vector é declarado com o tamanho do número introduzido pelo utilizador. O tamanho do vector é definido pelo utilizador uma vez que o número de números pares que o utilizador introduzir vai ser sempre inferior ao número de números que o utilizador introduzir
-
     // Ciclo que vai iterar até que o número introduzido pelo utilizador seja válido
-    printf("Selecione um número entre %i e %i: ", 0, 100);
+    printf("Selecione um número entre 0 e 100: ");
     do {
         scanf("%i", &numeroSelecionado); // Ler o número introduzido pelo utilizador
 
         numeroValido = validarNumero(numeroSelecionado); // Validar o número introduzido pelo utilizador caso o número seja válido o ciclo vai terminar caso contrário vai iterar novamente e pedir para o utilizador introduzir um número válido
         if (!numeroValido) {
             printf("Numero invalido!\n");
-            printf("Por favor selecione um número entre %i e %i", 0, 100);
+            printf("Por favor selecione um número entre 0 e 100");
         }
     } while (!numeroValido);
 
+    int vectorDeNumerosPares[numeroSelecionado]; // O vector é declarado com o tamanho do número introduzido pelo utilizador. O tamanho do vector é definido pelo utilizador uma vez que o número de números pares que o utilizador introduzir vai ser sempre inferior ao número de números que o utilizador introduzir
 
     // Ciclo que vai iterar até que o número introduzido pelo utilizador seja atingido. Em cada iteração o utilizador vai ser solicitado a introduzir um número e esse número vai ser validado. Caso o número seja válido vai ser adicionado ao vetor de números pares e o número de números pares vai ser incrementado em 1
 
