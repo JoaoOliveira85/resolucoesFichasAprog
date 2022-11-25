@@ -8,7 +8,7 @@ Se quiserem estão convidados a contribuir com as vossas respostas. Para isso cr
 
 Depois façam PR que é adicionado ao repositório. 
 
-**PODEM CONSULTAR O CÓDIGO DIRETAMENTE DESTA PÁGINA SEM TEREM QUE INSTALAR NADA** mas para quem quiser transferir uma cópia (clone) para o seu computador seguem-se as instruções: 
+**PODEM CONSULTAR O CÓDIGO DIRETAMENTE DESTA PÁGINA SEM TEREM QUE INSTALAR NADA OU FAZER DOWNLOAD DUM ZIP** (carregando em code > download zip)  mas para quem quiser transferir uma cópia (clone) para o seu computador seguem-se as instruções: 
 
 ## Sobre Sistemas de Controlo de Versões (VCS)
 
