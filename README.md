@@ -8,7 +8,20 @@ Se quiserem estão convidados a contribuir com as vossas respostas. Para isso cr
 
 Depois façam PR que é adicionado ao repositório. 
 
-**PODEM CONSULTAR O CÓDIGO DIRETAMENTE DESTA PÁGINA SEM TEREM QUE INSTALAR NADA OU FAZER DOWNLOAD DUM ZIP** (carregando em code > download zip)  mas para quem quiser transferir uma cópia (clone) para o seu computador seguem-se as instruções: 
+**PODEM CONSULTAR O CÓDIGO DIRETAMENTE DESTA PÁGINA SEM TEREM QUE INSTALAR NADA OU FAZER DOWNLOAD DUM ZIP** (carregando em code > download zip)  mas para quem quiser transferir uma cópia (clone) para o seu computador seguem-se mais em baixo.
+
+## Pedir ajuda, contribuir com respostas, reportar erros, etc.
+
+Se quiserem pedir resposta para um exercício, se precisarem que alguém vos ajude num exercício que estão a tentar resolver, se encontrarem um bug ou quiserem fazer algum tipod e comunicação façam-no, por favor, no separador "issues". Basta carregar em "new issue", dar-lhe um nome, escrever o texto e escolher a label adequada. 
+
+As labels atuais são:
+- Bug (Erro/bug numa resolução);
+- Documentação (melhoria da documentação);
+- Help wanted (Pedido de ajuda para resoler um exercício);
+- Pedido de Exercício (Pedir nova resposta a um exercício);
+- Pergunta (pergunta sobre um exercício);
+
+Se quiserem contribuir ajudando numa issue em particular podem deixar um comentário nessa issue que ela ficará atribuida a vocês. 
 
 ## Sobre Sistemas de Controlo de Versões (VCS)
 
